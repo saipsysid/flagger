@@ -1,0 +1,109 @@
+// Create variables for all the KEYS. For example
+ var keyc = createSprite(27,200,57,200);
+ keyc.shapeColor='white';
+ 
+
+
+var keycsharp = createSprite(40, 165,40,130);
+keycsharp.shapeColor='black';
+
+
+var keyd = createSprite(70, 200,40,200);
+keyd.shapeColor='white';
+
+
+var keybsharp = createSprite(75, 165,30,130);
+keybsharp.shapeColor='Black';
+
+
+var keye = createSprite(125,200,75,200);
+keye.shapeColor='white';
+
+
+var keyf = createSprite(150, 200,75,200);
+keyf.shapeColor='white';
+
+
+var keyg = createSprite(170, 200,75,200);
+keyg.shapeColor='white';
+
+
+var keya = createSprite(195, 200,75,200);
+keya.shapeColor='white';
+
+
+var keyb = createSprite(220, 200,75,200);
+keyb.shapeColor='white';
+
+
+var keysharpf = createSprite(140, 162,20,125);
+keysharpf.shapeColor='black';
+
+
+var keysharpg = createSprite(180, 162,20,125);
+keysharpg.shapeColor='black';
+var keysharpb = createSprite(220, 162,20,125);
+keysharpb.shapeColor='black';
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+function draw() {
+   background("red");
+  
+  
+  drawSprites();
+  
+  if(keyDown('c')){
+ playSound("sound://category_instrumental/digital_drum_1.mp3" ,false);
+   
+}
+
+if(keyDown('a')){
+ playSound("sound://category_instrumental/harpe_music_1.mp3", false);
+   
+}
+if(keyDown('b')){
+  playSound("sound://category_instrumental/harpe_downscale_1.mp3", false);
+  
+}
+if(keyDown('d')){
+  playSound("sound://category_alerts/retro_game_health_pickup_6.mp3", false);
+  
+  
+}
+if (keyDown('g')){
+  playSound("sound://category_human/character_calvin_ahh_1.mp3", false);
+  
+  
+}
+
+  
+
+  
+  
+  
+}
+
+
